@@ -1,5 +1,8 @@
-def summa(term, r1, r2):
+def vati(r1, r2):
+  kw= r2-r1
+  return kw
 
+def summa(term, kw):
   if term==1:
     summa=kw*0.20159
   elif term==2:
@@ -8,4 +11,4 @@ def summa(term, r1, r2):
     summa=kw*0.16427
   else:
     summa=kw*0.15964
-  return summa, kw
+  return summa
